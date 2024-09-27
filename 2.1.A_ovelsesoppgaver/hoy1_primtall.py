@@ -1,3 +1,4 @@
+#!/bin/python
 def sjekk_tall(tall):
     if tall % 2 == 0:
         return "Partall"

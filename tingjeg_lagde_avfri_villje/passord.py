@@ -8,6 +8,6 @@ def sjekk_passord(test):
         return "feil passord"
 
 # testing av passord
-tall = int(input("Skriv inn passordet: "))
-print(sjekk_passord(tall))
+test = int(input("Skriv inn passordet:"))
+print(sjekk_passord(test))
     
