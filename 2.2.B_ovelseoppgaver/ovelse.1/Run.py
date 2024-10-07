@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python
 import tekstverktøy
 tekst = "Hello World!"
 print(tekstverktøy.tell_vokaler(tekst))  # Output: 3
