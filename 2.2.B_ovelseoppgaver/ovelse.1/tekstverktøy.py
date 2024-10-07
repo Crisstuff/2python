@@ -1,9 +1,18 @@
 #!/bin/python
-def tell_vokaler():
-    print("antall vokaler er 3")
+#listerligger under her
+tekst = "Hello World!"
+vokal_liste = "aeiouyæøåAEIOUYÆØÅ"  # Små og store vokaler
 
-def speilvend():
-    print
+#functioner ligger under her
+def tell_vokaler(tekst):
+    vokaler = tekst - vokal_liste
+    char_count = len(vokaler) #Teller antall caracters som blir igjen i vokaler
+    return char_count
+
+def speilvend(tekst):
+    speilvendt_tekst = tekst[::-1]
+    return speilvendt_tekst
 
 def erstatt_vokal():
-    print
+    erstatt = tekst - vokal_liste
+    return erstatt
