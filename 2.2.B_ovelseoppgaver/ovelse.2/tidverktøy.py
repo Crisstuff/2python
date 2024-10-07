@@ -9,5 +9,8 @@ def nåværende_tid():
     return (x.strftime("%H:%M:%S"))
 
 def er_helg():
-    helg = datetime.datetime.now()
-    return helg
+    helg = (x.strftime("%w"))
+    if helg > 5:
+        return True
+    else:
+        return False
