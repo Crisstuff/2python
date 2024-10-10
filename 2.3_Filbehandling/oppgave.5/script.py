@@ -1,3 +1,4 @@
+#!/bin/python
 
 # Eksempel på bruk
 filnavn = 'bruker_tekst_op3.txt'
