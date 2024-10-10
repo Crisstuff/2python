@@ -1,0 +1,6 @@
+/bin/python /home/elev/Documents/GitHub/2python/2.3_Filbehandling/oppgave.3/script.py
+potet 
+grønsakker 
+plastelina 
+sludder 
+sladder 
