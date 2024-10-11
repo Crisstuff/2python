@@ -1,5 +1,3 @@
-#!/bin/python
-
 import tkinter as tk
 
 class Innhold_boks:
